@@ -13,8 +13,12 @@ import static org.hamcrest.Matchers.*;
 
   public class get_Request {
 	  
-  @Test
-  public void URL_get_Request() {
+	  /*
+		 * get request is use to get or retrieve the data
+		 */
+	  
+    @Test
+    public void URL_get_Request() {
 	  
 	  given()
 	  

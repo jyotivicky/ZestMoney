@@ -18,6 +18,10 @@ import static org.hamcrest.Matchers.*;
 	   
 	   public static HashMap map = new HashMap();
 	   
+	   /*
+		 * put request is use to create a data
+		 */
+	   
 	   @BeforeClass
 	   public static void Test_post_Request() {
 		 

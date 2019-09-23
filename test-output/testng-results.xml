@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4796" started-at="2019-09-23T11:43:41Z" finished-at="2019-09-23T11:43:46Z">
+  <suite name="Default suite" duration-ms="6104" started-at="2019-09-23T12:41:15Z" finished-at="2019-09-23T12:41:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4796" started-at="2019-09-23T11:43:41Z" finished-at="2019-09-23T11:43:46Z">
-      <class name="restAssuredTest.json_Request">
-        <test-method status="PASS" signature="URL_json_Request_001()[pri:1, instance:restAssuredTest.json_Request@7a1ebcd8]" name="URL_json_Request_001" duration-ms="2406" started-at="2019-09-23T17:13:41Z" finished-at="2019-09-23T17:13:43Z">
+    <test name="Default test" duration-ms="6104" started-at="2019-09-23T12:41:15Z" finished-at="2019-09-23T12:41:21Z">
+      <class name="restAssuredTest.XML_validation">
+        <test-method status="PASS" signature="Test_XML_Validation_001()[pri:1, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_001" duration-ms="4075" started-at="2019-09-23T18:11:15Z" finished-at="2019-09-23T18:11:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- URL_json_Request_001 -->
-        <test-method status="PASS" signature="URL_json_Request_002()[pri:2, instance:restAssuredTest.json_Request@7a1ebcd8]" name="URL_json_Request_002" duration-ms="266" started-at="2019-09-23T17:13:43Z" finished-at="2019-09-23T17:13:44Z">
+        </test-method> <!-- Test_XML_Validation_001 -->
+        <test-method status="PASS" signature="Test_XML_Validation_002()[pri:2, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_002" duration-ms="504" started-at="2019-09-23T18:11:19Z" finished-at="2019-09-23T18:11:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- URL_json_Request_002 -->
-        <test-method status="PASS" signature="URL_json_Request_003()[pri:3, instance:restAssuredTest.json_Request@7a1ebcd8]" name="URL_json_Request_003" duration-ms="1191" started-at="2019-09-23T17:13:44Z" finished-at="2019-09-23T17:13:45Z">
+        </test-method> <!-- Test_XML_Validation_002 -->
+        <test-method status="PASS" signature="Test_XML_Validation_003()[pri:3, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_003" duration-ms="358" started-at="2019-09-23T18:11:20Z" finished-at="2019-09-23T18:11:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- URL_json_Request_003 -->
-        <test-method status="PASS" signature="URL_json_Request_004()[pri:4, instance:restAssuredTest.json_Request@7a1ebcd8]" name="URL_json_Request_004" duration-ms="412" started-at="2019-09-23T17:13:45Z" finished-at="2019-09-23T17:13:45Z">
+        </test-method> <!-- Test_XML_Validation_003 -->
+        <test-method status="PASS" signature="Test_XML_Validation_004()[pri:4, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_004" duration-ms="637" started-at="2019-09-23T18:11:20Z" finished-at="2019-09-23T18:11:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- URL_json_Request_004 -->
-        <test-method status="PASS" signature="URL_json_Request_005()[pri:5, instance:restAssuredTest.json_Request@7a1ebcd8]" name="URL_json_Request_005" duration-ms="458" started-at="2019-09-23T17:13:45Z" finished-at="2019-09-23T17:13:46Z">
+        </test-method> <!-- Test_XML_Validation_004 -->
+        <test-method status="PASS" signature="Test_XML_Validation_005()[pri:5, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_005" duration-ms="466" started-at="2019-09-23T18:11:21Z" finished-at="2019-09-23T18:11:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- URL_json_Request_005 -->
-      </class> <!-- restAssuredTest.json_Request -->
+        </test-method> <!-- Test_XML_Validation_005 -->
+      </class> <!-- restAssuredTest.XML_validation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

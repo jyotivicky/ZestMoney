@@ -25,6 +25,10 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 
     public class delete_Request {
+    	
+    	/*
+    	 * delete request is use to delete the data 
+    	 */
 
 	  @Test
 	  public static void URL_delete_Request() {
