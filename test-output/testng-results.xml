@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3976" started-at="2019-09-23T09:40:00Z" finished-at="2019-09-23T09:40:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3976" started-at="2019-09-23T09:40:00Z" finished-at="2019-09-23T09:40:04Z">
+      <class name="restAssuredTest.put_RequestTest">
+        <test-method status="PASS" signature="Test_put_Request()[pri:0, instance:restAssuredTest.put_RequestTest@52feb982]" name="Test_put_Request" is-config="true" duration-ms="609" started-at="2019-09-23T15:10:00Z" finished-at="2019-09-23T15:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_put_Request -->
+        <test-method status="PASS" signature="URL_post_Requst()[pri:0, instance:restAssuredTest.put_RequestTest@52feb982]" name="URL_post_Requst" duration-ms="3340" started-at="2019-09-23T15:10:01Z" finished-at="2019-09-23T15:10:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL_post_Requst -->
+      </class> <!-- restAssuredTest.put_RequestTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1134340,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookPage.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Demo Login Scenario",
+        "description": "",
+        "id": "test-cucumber;demo-login-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 138286,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hookPage.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5901057137,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already in login page",
+            "match": {
+              "location": "loginPage.user_in_already_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40696,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of the Login page is Title",
+            "match": {
+              "location": "loginPage.title_of_the_login_page_is_Title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3551185,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User entered username \"jyotiqa009@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jyotiqa009@gmail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "loginPage.user_entered_Username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74279,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User entered password \"Vicky1234@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vicky1234@",
+                  "offset": 23
+                }
+              ],
+              "location": "loginPage.user_entered_Password(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18175,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on the login button",
+            "match": {
+              "location": "loginPage.user_click_on_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16989,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User sucessfully Logged in",
+            "match": {
+              "location": "loginPage.user_sucessfully_Logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Cucumber",
+    "description": "",
+    "id": "test-cucumber",
+    "keyword": "Feature",
+    "uri": "C:/Test-OXYGEN/CucumberAPI_Test/src/test/resources/Features/Login.feature"
+  }
+]
