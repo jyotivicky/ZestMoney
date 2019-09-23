@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-   public class post_RequestTest {
+   public class post_Request {
 	   
 	   public static HashMap map = new HashMap();
 	   
