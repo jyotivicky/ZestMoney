@@ -1,0 +1,5 @@
+Feature: My Cucumber Test
+
+  @smoke
+  Scenario: Checking Cucumber        # D:/Selenium_Project/API_Automation/feature/docker.feature:3
+    Given Webpage opened sucessfully # DockerDemoTest.openAndClick()

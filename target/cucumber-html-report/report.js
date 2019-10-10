@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 15418962101,
+  "duration": 14237139500,
   "status": "passed"
 });
 formatter.scenario({
@@ -33,15 +33,15 @@ formatter.match({
   "location": "DockerDemoTest.openAndClick()"
 });
 formatter.result({
-  "duration": 222884899,
+  "duration": 219070000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 104899,
+  "duration": 315499,
   "status": "passed"
 });
 formatter.after({
-  "duration": 881119799,
+  "duration": 881438200,
   "status": "passed"
 });
 });

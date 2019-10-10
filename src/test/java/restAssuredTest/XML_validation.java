@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-  public class XML_validation {
+    public class XML_validation {
      
 	  /*
 	   * to test single content in xml
