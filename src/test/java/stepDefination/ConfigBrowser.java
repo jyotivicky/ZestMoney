@@ -41,27 +41,28 @@ import testBase.BaseTest;
 		if (scenario.isFailed()) {	
 			ScreenShot.CaptureScreen(driver, "ProjectTest");
 			
-			Date d = new Date();
-			String screenshotFile = d.toString().replace(":", "_").replace(" ", "_") + ".png";
-			try {
-				// This takes a screenshot from the driver at save it to the specified location
-				File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
-				// Building up the destination path for the screenshot to save
-				// Also make sure to create a folder 'screenshots' with in the cucumber-report
-				// folder
-				File destinationPath = new File(
-						System.getProperty("user.dir") + "ScreenShot\\" + screenshotFile);
-
-				// Copy taken screenshot from source location to destination location
-				Files.copy(scrFile, destinationPath);
-
-				// This attach the specified screenshot to the test
-				Reporter.addScreenCaptureFromPath(destinationPath.toString());
-			} catch (IOException e) {
-			}
-		}
-	}
+//			Date d = new Date();
+//			String screenshotFile = d.toString().replace(":", "_").replace(" ", "_") + ".png";
+//			try {
+//				// This takes a screenshot from the driver at save it to the specified location
+//				File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//
+//				// Building up the destination path for the screenshot to save
+//				// Also make sure to create a folder 'screenshots' with in the cucumber-report
+//				// folder
+//				File destinationPath = new File(
+//						System.getProperty("user.dir") + "ScreenShot\\" + screenshotFile);
+//
+//				// Copy taken screenshot from source location to destination location
+//				Files.copy(scrFile, destinationPath);
+//
+//				// This attach the specified screenshot to the test
+//				Reporter.addScreenCaptureFromPath(destinationPath.toString());
+//			} catch (IOException e) {
+//			}
+			
+		 }
+      }
 	/*
 	 * @After(order = 1) public void afterScenario(Scenario scenario) { if
 	 * (scenario.isFailed()) { try { String Path =
