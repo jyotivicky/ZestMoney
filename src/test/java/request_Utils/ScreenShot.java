@@ -11,6 +11,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
+import com.cucumber.listener.Reporter;
+
    public class ScreenShot {
 	static WebDriver driver;
 	static int i                              = 1;
@@ -34,6 +36,8 @@ import org.openqa.selenium.WebDriver;
 			System.out.println("Test Case Got Failed Screenshot Taken");
 			File destination                  = new File(DescFile);
 			FileUtils.copyFile(sourceFile, destination);
+			
+//			Reporter.addScreenCaptureFromPath(DescFile.toString());
 
 		} catch (IOException e) {
 			e.printStackTrace();
