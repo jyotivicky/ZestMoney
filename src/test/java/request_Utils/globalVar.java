@@ -23,12 +23,12 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 	/*
 	 * these variables are extent report file location
 	 */
-	public static final String SystemExtentReportPath                         = "testCaseResult\\testReport.html";	
+	public static final String SystemExtentReportPath                         = "testReport\\extent.html";	
 	
 	/*
 	 * variables for properties file path
 	 */
-	public final static String SystemConfigPath                               = "Configuration_File\\Config.properties";
+	public final static String SystemConfigPath                               = "Config_File\\Config.properties";
 		
 	/*
 	 * these variables to generate report
