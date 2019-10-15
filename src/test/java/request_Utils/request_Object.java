@@ -2,8 +2,7 @@ package request_Utils;
 
 import org.apache.commons.lang3.RandomStringUtils;
 
-   public class request_Object {
-   
+     public class request_Object {
 	   /*
 	    * generating data for post request
 	    */

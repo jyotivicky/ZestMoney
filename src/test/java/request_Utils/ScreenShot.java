@@ -10,7 +10,6 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
 import com.cucumber.listener.Reporter;
 
    public class ScreenShot {
@@ -37,7 +36,7 @@ import com.cucumber.listener.Reporter;
 			File destination                  = new File(DescFile);
 			FileUtils.copyFile(sourceFile, destination);
 			
-//			Reporter.addScreenCaptureFromPath(DescFile.toString());
+			Reporter.addScreenCaptureFromPath(DescFile.toString());
 
 		} catch (IOException e) {
 			e.printStackTrace();

@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="restAssuredTest.get_RequestTest"/>
+      <class name="TestRunner.dockerClass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

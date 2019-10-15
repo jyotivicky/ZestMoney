@@ -24,22 +24,22 @@ import testBase.BaseTest;
 	@After(order = 0)
 	public void embedScreenshot(Scenario scenario) throws Exception {
 		if (scenario.isFailed()) {
-			try {
-				final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-				scenario.embed(screenshot, "image/png");
-			} catch (WebDriverException wde) {
-				System.err.println(wde.getMessage());
-			} catch (ClassCastException cce) {
-				cce.printStackTrace();
-			}
+//			try {
+//				final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+//				scenario.embed(screenshot, "image/png");
+//			} catch (WebDriverException wde) {
+//				System.err.println(wde.getMessage());
+//			} catch (ClassCastException cce) {
+//				cce.printStackTrace();
+//			}
 		}
-		driver.quit();
+     // driver.quit();
 	}
 
 	@After(order = 1)
 	public void afterScenario(Scenario scenario) {
 		if (scenario.isFailed()) {	
-			ScreenShot.CaptureScreen(driver, "ProjectTest");
+//			ScreenShot.CaptureScreen(driver, "ProjectTest");
 			
 //			Date d = new Date();
 //			String screenshotFile = d.toString().replace(":", "_").replace(" ", "_") + ".png";

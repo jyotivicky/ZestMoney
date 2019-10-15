@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6104" started-at="2019-09-23T12:41:15Z" finished-at="2019-09-23T12:41:21Z">
+  <suite name="Default suite" duration-ms="4190" started-at="2019-10-15T12:06:34Z" finished-at="2019-10-15T12:06:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6104" started-at="2019-09-23T12:41:15Z" finished-at="2019-09-23T12:41:21Z">
-      <class name="restAssuredTest.XML_validation">
-        <test-method status="PASS" signature="Test_XML_Validation_001()[pri:1, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_001" duration-ms="4075" started-at="2019-09-23T18:11:15Z" finished-at="2019-09-23T18:11:19Z">
+    <test name="Default test" duration-ms="4190" started-at="2019-10-15T12:06:34Z" finished-at="2019-10-15T12:06:39Z">
+      <class name="TestRunner.dockerClass">
+        <test-method status="PASS" signature="Game()[pri:0, instance:TestRunner.dockerClass@2bbf4b8b]" name="Game" duration-ms="4139" started-at="2019-10-15T17:36:34Z" finished-at="2019-10-15T17:36:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_XML_Validation_001 -->
-        <test-method status="PASS" signature="Test_XML_Validation_002()[pri:2, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_002" duration-ms="504" started-at="2019-09-23T18:11:19Z" finished-at="2019-09-23T18:11:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_XML_Validation_002 -->
-        <test-method status="PASS" signature="Test_XML_Validation_003()[pri:3, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_003" duration-ms="358" started-at="2019-09-23T18:11:20Z" finished-at="2019-09-23T18:11:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_XML_Validation_003 -->
-        <test-method status="PASS" signature="Test_XML_Validation_004()[pri:4, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_004" duration-ms="637" started-at="2019-09-23T18:11:20Z" finished-at="2019-09-23T18:11:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_XML_Validation_004 -->
-        <test-method status="PASS" signature="Test_XML_Validation_005()[pri:5, instance:restAssuredTest.XML_validation@7a1ebcd8]" name="Test_XML_Validation_005" duration-ms="466" started-at="2019-09-23T18:11:21Z" finished-at="2019-09-23T18:11:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_XML_Validation_005 -->
-      </class> <!-- restAssuredTest.XML_validation -->
+        </test-method> <!-- Game -->
+      </class> <!-- TestRunner.dockerClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
