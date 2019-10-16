@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "source": "^Webpage opened sucessfully$",
+    "steps": [
+      {
+        "name": "Webpage opened sucessfully",
+        "aggregatedDurations": {
+          "average": 0.2608865,
+          "median": 0.2608865
+        },
+        "durations": [
+          {
+            "duration": 0.2608865,
+            "location": "D:/Selenium_Project/API_Automation/feature/docker.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

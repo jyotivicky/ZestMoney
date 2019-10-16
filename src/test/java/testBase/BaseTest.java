@@ -53,8 +53,7 @@ import request_Utils.ScreenShot;
 			chromeCapabilities.setCapability(ChromeOptions.CAPABILITY, Chro);
 			driver = new ChromeDriver(Chro);
 			
-		} else if (ReadConfig.getPropertyValue("browserName").equals("firefox")) {
-			
+		} else if (ReadConfig.getPropertyValue("browserName").equals("firefox")) {		
 			WebDriverManager.firefoxdriver().version("2.40").setup();
 			FirefoxOptions fox = new FirefoxOptions();
 			DesiredCapabilities foxCapabilities = DesiredCapabilities.firefox();
