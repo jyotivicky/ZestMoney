@@ -125,21 +125,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestRunner.chromeClass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="openChrome">
-                  </a> <!-- openChrome -->
-                  <span class="method-name">openChrome</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">TestRunner.firefoxClass</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -148,6 +133,21 @@
                   <a name="openFirefox">
                   </a> <!-- openFirefox -->
                   <span class="method-name">openFirefox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestRunner.chromeClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openChrome">
+                  </a> <!-- openChrome -->
+                  <span class="method-name">openChrome</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,6 +164,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;classes&quot;&gt;
   &lt;test thread-count=&quot;2&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;TestRunner.dockerBatClass&quot;/&gt;
       &lt;class name=&quot;TestRunner.chromeClass&quot;/&gt;
       &lt;class name=&quot;TestRunner.firefoxClass&quot;/&gt;
     &lt;/classes&gt;
@@ -179,7 +180,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -209,16 +210,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'openFirefox')
 data.setCell(0, 2, 'TestRunner.firefoxClass')
-data.setCell(0, 3, 12987);
+data.setCell(0, 3, 18863);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'openChrome')
 data.setCell(1, 2, 'TestRunner.chromeClass')
-data.setCell(1, 3, 8729);
+data.setCell(1, 3, 8052);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -244,18 +245,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">TestRunner.dockerBatClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start_Docker</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">TestRunner.chromeClass</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openChrome</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">15094 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestRunner.firefoxClass</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openFirefox</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">15094 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestRunner.dockerBatClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">down_Docker</span>
+                <span class="method-start">33961 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

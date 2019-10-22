@@ -2,18 +2,28 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13031" started-at="2019-10-16T12:29:17Z" finished-at="2019-10-16T12:29:30Z">
+  <suite name="Suite" duration-ms="48990" started-at="2019-10-21T07:14:58Z" finished-at="2019-10-21T07:15:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13031" started-at="2019-10-16T12:29:17Z" finished-at="2019-10-16T12:29:30Z">
+    <test name="Test" duration-ms="48990" started-at="2019-10-21T07:14:58Z" finished-at="2019-10-21T07:15:47Z">
       <class name="TestRunner.firefoxClass">
-        <test-method status="PASS" signature="openFirefox()[pri:0, instance:TestRunner.firefoxClass@52feb982]" name="openFirefox" duration-ms="12987" started-at="2019-10-16T17:59:17Z" finished-at="2019-10-16T17:59:30Z">
+        <test-method status="PASS" signature="openFirefox()[pri:0, instance:TestRunner.firefoxClass@2a556333]" name="openFirefox" duration-ms="18863" started-at="2019-10-21T12:45:13Z" finished-at="2019-10-21T12:45:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFirefox -->
       </class> <!-- TestRunner.firefoxClass -->
+      <class name="TestRunner.dockerBatClass">
+        <test-method status="PASS" signature="start_Docker()[pri:0, instance:TestRunner.dockerBatClass@86be70a]" name="start_Docker" is-config="true" duration-ms="15053" started-at="2019-10-21T12:44:58Z" finished-at="2019-10-21T12:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_Docker -->
+        <test-method status="PASS" signature="down_Docker()[pri:0, instance:TestRunner.dockerBatClass@86be70a]" name="down_Docker" is-config="true" duration-ms="15022" started-at="2019-10-21T12:45:32Z" finished-at="2019-10-21T12:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down_Docker -->
+      </class> <!-- TestRunner.dockerBatClass -->
       <class name="TestRunner.chromeClass">
-        <test-method status="PASS" signature="openChrome()[pri:0, instance:TestRunner.chromeClass@30a3107a]" name="openChrome" duration-ms="8729" started-at="2019-10-16T17:59:17Z" finished-at="2019-10-16T17:59:26Z">
+        <test-method status="PASS" signature="openChrome()[pri:0, instance:TestRunner.chromeClass@480bdb19]" name="openChrome" duration-ms="8052" started-at="2019-10-21T12:45:13Z" finished-at="2019-10-21T12:45:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->

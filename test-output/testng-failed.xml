@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
   <test thread-count="2" name="Test">
     <classes>
+      <class name="TestRunner.dockerBatClass"/>
       <class name="TestRunner.chromeClass"/>
       <class name="TestRunner.firefoxClass"/>
     </classes>

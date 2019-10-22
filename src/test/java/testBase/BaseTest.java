@@ -2,7 +2,6 @@ package testBase;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URL;
 import java.util.Arrays;
 import java.util.HashMap;
 import org.openqa.selenium.WebDriver;
@@ -12,20 +11,17 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import cucumber.api.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import request_Utils.ReadConfig;
 import request_Utils.ScreenShot;
 
     public class BaseTest{
-	public static ReadConfig read              = new ReadConfig();
+	public static ReadConfig read       = new ReadConfig();
 	public static WebDriver driver;
 	static File downloadfiles           = new File("FileDownload");
 	static String downloadFilepath      = downloadfiles.getAbsolutePath();
@@ -104,7 +100,7 @@ import request_Utils.ScreenShot;
 //		// driver.close();
 //		// Email.SendTestReport();
 //	}
-}
+  }
 
 
 

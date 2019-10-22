@@ -23,7 +23,6 @@ import cucumber.api.junit.Cucumber;
 	
    }
 
-
     // features         = the path of the folder where all feature files are available
     // monocrome        = to display the console output in a proper readable format
     // Plugin           = to generate the test report
