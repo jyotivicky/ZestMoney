@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="48990" started-at="2019-10-21T07:14:58Z" finished-at="2019-10-21T07:15:47Z">
+  <suite name="Default suite" duration-ms="15840" started-at="2019-10-22T12:37:05Z" finished-at="2019-10-22T12:37:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="48990" started-at="2019-10-21T07:14:58Z" finished-at="2019-10-21T07:15:47Z">
-      <class name="TestRunner.firefoxClass">
-        <test-method status="PASS" signature="openFirefox()[pri:0, instance:TestRunner.firefoxClass@2a556333]" name="openFirefox" duration-ms="18863" started-at="2019-10-21T12:45:13Z" finished-at="2019-10-21T12:45:32Z">
+    <test name="Default test" duration-ms="15840" started-at="2019-10-22T12:37:05Z" finished-at="2019-10-22T12:37:21Z">
+      <class name="TestRunner.browserStackRun">
+        <test-method status="PASS" signature="crossBrowserTest()[pri:0, instance:TestRunner.browserStackRun@52feb982]" name="crossBrowserTest" duration-ms="15803" started-at="2019-10-22T18:07:05Z" finished-at="2019-10-22T18:07:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openFirefox -->
-      </class> <!-- TestRunner.firefoxClass -->
-      <class name="TestRunner.dockerBatClass">
-        <test-method status="PASS" signature="start_Docker()[pri:0, instance:TestRunner.dockerBatClass@86be70a]" name="start_Docker" is-config="true" duration-ms="15053" started-at="2019-10-21T12:44:58Z" finished-at="2019-10-21T12:45:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- start_Docker -->
-        <test-method status="PASS" signature="down_Docker()[pri:0, instance:TestRunner.dockerBatClass@86be70a]" name="down_Docker" is-config="true" duration-ms="15022" started-at="2019-10-21T12:45:32Z" finished-at="2019-10-21T12:45:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- down_Docker -->
-      </class> <!-- TestRunner.dockerBatClass -->
-      <class name="TestRunner.chromeClass">
-        <test-method status="PASS" signature="openChrome()[pri:0, instance:TestRunner.chromeClass@480bdb19]" name="openChrome" duration-ms="8052" started-at="2019-10-21T12:45:13Z" finished-at="2019-10-21T12:45:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openChrome -->
-      </class> <!-- TestRunner.chromeClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- crossBrowserTest -->
+      </class> <!-- TestRunner.browserStackRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
