@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.343424">
-<testcase classname="My Cucumber Test" name="Checking Cucumber" time="15.343424">
-<system-out><![CDATA[Given Webpage opened sucessfully............................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.52679">
+<testcase classname="Locus Test Project" name="User Opened Flipkart And Search For Shoes" time="26.52679">
+<system-out><![CDATA[Given flipkart Website opened sucessfully...................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

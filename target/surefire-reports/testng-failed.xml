@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="Zest Money Test">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="ZestMoney.TestCases.Zest_MoneyAssignmentTest"/>
+    </classes>
+  </test> <!-- Zest Money Test -->
+</suite> <!-- Failed suite [Suite] -->

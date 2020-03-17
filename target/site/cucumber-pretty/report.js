@@ -1,20 +1,20 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("D:/Selenium_Project/API_Automation/feature/docker.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("feature/locusTest.feature");
 formatter.feature({
   "line": 1,
-  "name": "My Cucumber Test",
+  "name": "Locus Test Project",
   "description": "",
-  "id": "my-cucumber-test",
+  "id": "locus-test-project",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 15082369000,
+  "duration": 25198491500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 3,
-  "name": "Checking Cucumber",
+  "name": "User Opened Flipkart And Search For Shoes",
   "description": "",
-  "id": "my-cucumber-test;checking-cucumber",
+  "id": "locus-test-project;user-opened-flipkart-and-search-for-shoes",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
@@ -25,23 +25,23 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 5,
-  "name": "Webpage opened sucessfully",
+  "line": 4,
+  "name": "flipkart Website opened sucessfully",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "DockerDemoTest.openAndClick()"
+  "location": "LocusTest.searchForShoes()"
 });
 formatter.result({
-  "duration": 260886500,
+  "duration": 1328127400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 134700,
+  "duration": 117500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 33800,
+  "duration": 53800,
   "status": "passed"
 });
 });

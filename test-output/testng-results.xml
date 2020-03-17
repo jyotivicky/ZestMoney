@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15840" started-at="2019-10-22T12:37:05Z" finished-at="2019-10-22T12:37:21Z">
+  <suite name="Suite" duration-ms="52955" started-at="2020-03-17T15:41:09 IST" finished-at="2020-03-17T15:42:02 IST">
     <groups>
+      <group name="regression">
+        <method signature="Zest_MoneyAssignmentTest.ZestTest()[pri:0, instance:ZestMoney.TestCases.Zest_MoneyAssignmentTest@564718df]" name="ZestTest" class="ZestMoney.TestCases.Zest_MoneyAssignmentTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test name="Default test" duration-ms="15840" started-at="2019-10-22T12:37:05Z" finished-at="2019-10-22T12:37:21Z">
-      <class name="TestRunner.browserStackRun">
-        <test-method status="PASS" signature="crossBrowserTest()[pri:0, instance:TestRunner.browserStackRun@52feb982]" name="crossBrowserTest" duration-ms="15803" started-at="2019-10-22T18:07:05Z" finished-at="2019-10-22T18:07:21Z">
+    <test name="Zest Money Test" duration-ms="52955" started-at="2020-03-17T15:41:09 IST" finished-at="2020-03-17T15:42:02 IST">
+      <class name="ZestMoney.TestCases.Zest_MoneyAssignmentTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:ZestMoney.TestCases.Zest_MoneyAssignmentTest@564718df]" name="SetUp" is-config="true" duration-ms="196" started-at="2020-03-17T15:41:09 IST" finished-at="2020-03-17T15:41:09 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- crossBrowserTest -->
-      </class> <!-- TestRunner.browserStackRun -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Initialization()[pri:0, instance:ZestMoney.TestCases.Zest_MoneyAssignmentTest@564718df]" name="Initialization" is-config="true" duration-ms="17790" started-at="2020-03-17T15:41:09 IST" finished-at="2020-03-17T15:41:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialization -->
+        <test-method status="PASS" signature="ZestTest()[pri:0, instance:ZestMoney.TestCases.Zest_MoneyAssignmentTest@564718df]" name="ZestTest" duration-ms="35085" started-at="2020-03-17T15:41:27 IST" finished-at="2020-03-17T15:42:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZestTest -->
+        <test-method status="PASS" signature="GetResult(org.testng.ITestResult)[pri:0, instance:ZestMoney.TestCases.Zest_MoneyAssignmentTest@564718df]" name="GetResult" is-config="true" duration-ms="8" started-at="2020-03-17T15:42:02 IST" finished-at="2020-03-17T15:42:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ZestTest status=SUCCESS method=Zest_MoneyAssignmentTest.ZestTest()[pri:0, instance:ZestMoney.TestCases.Zest_MoneyAssignmentTest@564718df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetResult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:ZestMoney.TestCases.Zest_MoneyAssignmentTest@564718df]" name="TearDown" is-config="true" duration-ms="536" started-at="2020-03-17T15:42:02 IST" finished-at="2020-03-17T15:42:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ZestMoney.TestCases.Zest_MoneyAssignmentTest -->
+    </test> <!-- Zest Money Test -->
+  </suite> <!-- Suite -->
 </testng-results>

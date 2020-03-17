@@ -1,5 +1,5 @@
-Feature: My Cucumber Test
+Feature: Locus Test Project
 
   @smoke
-  Scenario: Checking Cucumber        # D:/Selenium_Project/API_Automation/feature/docker.feature:3
-    Given Webpage opened sucessfully # DockerDemoTest.openAndClick()
+  Scenario: User Opened Flipkart And Search For Shoes # feature/locusTest.feature:3
+    Given flipkart Website opened sucessfully         # LocusTest.searchForShoes()

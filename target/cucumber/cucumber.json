@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 15082369000,
+              "duration": 25198491500,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 3,
-        "name": "Checking Cucumber",
+        "name": "User Opened Flipkart And Search For Shoes",
         "description": "",
-        "id": "my-cucumber-test;checking-cucumber",
+        "id": "locus-test-project;user-opened-flipkart-and-search-for-shoes",
         "after": [
           {
             "result": {
-              "duration": 134700,
+              "duration": 117500,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 33800,
+              "duration": 53800,
               "status": "passed"
             },
             "match": {
@@ -43,13 +43,13 @@
         "steps": [
           {
             "result": {
-              "duration": 260886500,
+              "duration": 1328127400,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Webpage opened sucessfully",
+            "line": 4,
+            "name": "flipkart Website opened sucessfully",
             "match": {
-              "location": "DockerDemoTest.openAndClick()"
+              "location": "LocusTest.searchForShoes()"
             },
             "keyword": "Given "
           }
@@ -62,10 +62,10 @@
         ]
       }
     ],
-    "name": "My Cucumber Test",
+    "name": "Locus Test Project",
     "description": "",
-    "id": "my-cucumber-test",
+    "id": "locus-test-project",
     "keyword": "Feature",
-    "uri": "D:/Selenium_Project/API_Automation/feature/docker.feature"
+    "uri": "feature/locusTest.feature"
   }
 ]

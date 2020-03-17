@@ -1,4 +1,3 @@
-D:\Selenium_Project\API_Automation\src\test\java\restAssuredTest\get_Request.java
-D:\Selenium_Project\API_Automation\src\test\java\stepDefination\getRequestTest.java
-D:\Selenium_Project\API_Automation\src\test\java\TestRunner\RunCukesTest.java
-D:\Selenium_Project\API_Automation\src\test\java\Utility\EmailReport.java
+D:\ProjectSelenium\Zest-Money\src\test\java\ZestMoney\testBase\ZestMoneyTestBases.java
+D:\ProjectSelenium\Zest-Money\src\test\java\ZestMoney\pageObject\browserBot.java
+D:\ProjectSelenium\Zest-Money\src\test\java\ZestMoney\TestCases\Zest_MoneyAssignmentTest.java
